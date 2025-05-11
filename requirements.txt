@@ -1,0 +1,23 @@
+# Core Framework
+Django>=5.0,<6.0
+
+# PostgreSQL support (optional, fallback is SQLite)
+psycopg2-binary>=2.9
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# Frontend template compression (optional)
+django-compressor>=4.4
+
+# Optional: crispy forms for better form rendering
+django-crispy-forms>=2.1
+
+# Optional: crispy-tailwind if using Tailwind CSS
+crispy-tailwind>=1.0.3
+
+# Security
+django-axes>=6.2  # brute force protection
+
+# Dev tools (optional)
+ipython>=8.23
